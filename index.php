@@ -5,7 +5,7 @@
 
 <a href="https://www.facebook.com/dialog/oauth?client_id=145781085505624&redirect_uri=http://www.trevobr.com/facebook/index.php&scope=email,read_stream">Autenticando Aplicação</a>
 
-<h2>Código de Autorização</h2>
+<h2>C&oacute;digo de Autoriza&ccedil;&atilde;o</h2>
 
 
 <?php echo "Codigo de acesso \$code: $code <br>\n"; ?>
@@ -15,4 +15,4 @@
 
 <h2>Conseguindo o token</h2>
 
-<a href="https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&redirect_uri=http://www.trevobr.com/facebook/&client_secret=ec97fcf283708082d6ed945a36a14b49&code=<?php echo $_REQUEST['code'] ?>">Pegar Token</a>
+<a href="https://graph.facebook.com/oauth/access_token?client_id=145781085505624&redirect_uri=http://www.trevobr.com/facebook/&client_secret=ec97fcf283708082d6ed945a36a14b49&code=<?php echo $_REQUEST['code'] ?>">Pegar Token</a>
