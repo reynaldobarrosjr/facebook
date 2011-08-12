@@ -15,4 +15,6 @@
 
 <h2>Conseguindo o token</h2>
 
-<a href="https://graph.facebook.com/oauth/access_token?client_id=145781085505624&redirect_uri=http://www.trevobr.com/facebook/&client_secret=ec97fcf283708082d6ed945a36a14b49&code=<?php echo $_REQUEST['code'] ?>">Pegar Token</a>
+<a href="https://graph.facebook.com/oauth/access_token?client_id=145781085505624&redirect_uri=http://www.trevobr.com/facebook/index.php&client_secret=ec97fcf283708082d6ed945a36a14b49&code=<?php echo $_REQUEST['code'] ?>">Pegar Token</a>
+
+<p>https://graph.facebook.com/oauth/access_token?client_id=145781085505624&redirect_uri=http://www.trevobr.com/facebook/index.php&client_secret=ec97fcf283708082d6ed945a36a14b49&code=THE_CODE_FROM_ABOVE</p>
