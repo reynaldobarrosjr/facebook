@@ -36,3 +36,4 @@
    }
 
  ?>
+ <a href="https://graph.facebook.com/me/friends?access_token=<?php echo $params['access_token'] ?>">Lista de amigos</a>
