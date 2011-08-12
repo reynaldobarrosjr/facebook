@@ -2,7 +2,7 @@
 
    $app_id = "145781085505624";
    $app_secret = "ec97fcf283708082d6ed945a36a14b49";
-   $my_url = "http://www.trevobr.com/facebook/serverside.php";
+   $my_url = "http://www.trevobr.com/facebook/index.php";
 
    session_start();
    $code = $_REQUEST["code"];
