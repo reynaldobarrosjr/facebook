@@ -7,3 +7,5 @@
 
 
 <?php echo "Codigo de acesso \$code: $code <br>\n"; ?>
+
+<?php echo $_REQUEST['code']; ?>
